@@ -3,116 +3,172 @@ layout: default
 title: Home
 ---
 
+<!-- HERO -->
 <section class="hero py-5">
-  <div class="container py-3">
+  <div class="container py-4">
     <div class="row align-items-center g-4">
       <div class="col-lg-6">
-        <div class="section-kicker mb-2">Software for design-science implementation in fashion</div>
-        <h1 class="display-5 fw-bold mb-3">Digital Product Passports that survive reality.</h1>
+        <div class="text-uppercase text-secondary small mb-2">
+          Software + design science for fashion DPP implementation
+        </div>
+        <h1 class="display-5 fw-bold mb-3">
+          Digital Product Passports that work under real conditions.
+        </h1>
         <p class="lead mb-4">
-          M-DPP develops and validates a practical implementation pattern for fashion DPPs:
-          identifiers, evidence chains, interoperable data models, and verification-aware workflows.
+          M-DPP develops and validates a practical implementation pattern for Digital Product
+          Passports in the fashion and textile sector. The project focuses on the operational,
+          technical, and governance constraints that determine whether DPPs can actually be deployed.
         </p>
         <div class="d-flex gap-2 flex-wrap">
-          <a class="btn btn-primary btn-lg" href="{{ '/work' | relative_url }}">How it works</a>
-          <a class="btn btn-outline-secondary btn-lg" href="{{ '/outputs' | relative_url }}">Outputs</a>
-        </div>
-        <div class="text-secondary small mt-3">
-          Built for research-grade traceability and deployment constraints across the value chain.
+          <a href="/work" class="btn btn-primary btn-lg">How it works</a>
+          <a href="/output" class="btn btn-outline-secondary btn-lg">Project outputs</a>
         </div>
       </div>
 
       <div class="col-lg-6">
-        <div class="soft-card p-4">
-          <div class="d-flex justify-content-between align-items-start mb-3">
-            <div>
-              <div class="fw-semibold">What it enables</div>
-              <div class="text-secondary">From material evidence to product-level passport records.</div>
-            </div>
-            <div class="icon-badge">DPP</div>
-          </div>
-
+        <div class="p-4 bg-white border rounded-4 shadow-sm">
+          <div class="fw-semibold mb-2">What the platform enables</div>
+          <p class="text-secondary mb-3">
+            From material-level evidence to product-level Digital Product Passport records,
+            with explicit handling of methods, uncertainty, and responsibility.
+          </p>
           <div class="row g-3">
-            <div class="col-12 col-md-6">
-              <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Identifiers + linking</div>
-                <div class="text-secondary small">Stable IDs across transformations.</div>
+            <div class="col-6">
+              <div class="border rounded-3 p-3 h-100">
+                <div class="fw-semibold">Identifiers & linking</div>
+                <div class="text-secondary small">
+                  Stable identifiers across materials, components, and products.
+                </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="p-3 border rounded-3 h-100">
+            <div class="col-6">
+              <div class="border rounded-3 p-3 h-100">
                 <div class="fw-semibold">Evidence chains</div>
-                <div class="text-secondary small">Methods, scope, uncertainty, provenance.</div>
+                <div class="text-secondary small">
+                  Traceable links between measurements, claims, and declarations.
+                </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Interoperable exports</div>
-                <div class="text-secondary small">Designed for integration, not PDFs.</div>
+            <div class="col-6">
+              <div class="border rounded-3 p-3 h-100">
+                <div class="fw-semibold">Interoperable data</div>
+                <div class="text-secondary small">
+                  Structures designed for exchange, not presentation.
+                </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="p-3 border rounded-3 h-100">
+            <div class="col-6">
+              <div class="border rounded-3 p-3 h-100">
                 <div class="fw-semibold">Verification-aware</div>
-                <div class="text-secondary small">Claims are inspectable and auditable.</div>
+                <div class="text-secondary small">
+                  Claims remain inspectable and auditable.
+                </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<section class="py-5">
+<!-- PROBLEM -->
+<section class="py-5 bg-light border-top">
   <div class="container">
-    <div class="row mb-4 align-items-end g-3">
+    <div class="row mb-4">
       <div class="col-lg-7">
-        <div class="section-kicker mb-2">Capabilities</div>
-        <h2 class="fw-bold mb-0">The boring-hard parts, implemented.</h2>
-      </div>
-      <div class="col-lg-5 text-secondary">
-        Clean architecture and measurable iteration: prototypes, pilots, failure modes, improvement.
+        <h2 class="fw-bold">Why most DPP initiatives fail</h2>
+        <p class="text-secondary">
+          Digital Product Passports are often treated as reporting artefacts. In practice, they
+          require operational data infrastructures that can cope with fragmented value chains,
+          heterogeneous data quality, and competing institutional incentives.
+        </p>
       </div>
     </div>
 
     <div class="row g-3">
       <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">1</div>
-          <div class="fw-semibold">Material-to-product traceability</div>
-          <div class="text-secondary mt-2">Link evidence to components and SKUs via transformation events.</div>
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">Unclear data provenance</div>
+          <p class="text-secondary mb-0">
+            Claims are detached from methods, scope, and responsibility.
+          </p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">2</div>
-          <div class="fw-semibold">Passport-ready data model</div>
-          <div class="text-secondary mt-2">Schema that maps to processes: composition, processes, claims, provenance.</div>
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">Incompatible data models</div>
+          <p class="text-secondary mb-0">
+            Systems cannot exchange information without manual reinterpretation.
+          </p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">3</div>
-          <div class="fw-semibold">Governance + verification</div>
-          <div class="text-secondary mt-2">Who asserted what, on which evidence, under which method.</div>
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">Governance blind spots</div>
+          <p class="text-secondary mb-0">
+            Responsibility, verification, and enforcement are left implicit.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="py-5 bg-white border-top border-bottom">
+<!-- APPROACH -->
+<section class="py-5">
   <div class="container">
-    <div class="row align-items-center g-3">
-      <div class="col-lg-8">
-        <h2 class="fw-bold mb-1">Working on a fashion DPP pilot?</h2>
-        <div class="text-secondary">We can share the implementation pathway and evaluation logic.</div>
+    <div class="row mb-4">
+      <div class="col-lg-7">
+        <h2 class="fw-bold">Our approach</h2>
+        <p class="text-secondary">
+          M-DPP applies a design-science methodology: knowledge is produced through the construction,
+          testing, and evaluation of working artefacts in realistic contexts.
+        </p>
       </div>
-      <div class="col-lg-4 text-lg-end">
-        <a class="btn btn-primary btn-lg" href="{{ '/contact' | relative_url }}">Contact</a>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">1. Capture</div>
+          <p class="text-secondary mb-0">
+            Generate evidence at the point of origin: measurements, tests, and declarations.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">2. Structure</div>
+          <p class="text-secondary mb-0">
+            Encode data with explicit identifiers, methods, and uncertainty.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">3. Publish</div>
+          <p class="text-secondary mb-0">
+            Expose DPP records through interoperable formats and interfaces.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">4. Evaluate</div>
+          <p class="text-secondary mb-0">
+            Observe failure modes, cost, and organisational impact.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- POSITIONING -->
+<section class="py-5 bg-light border-top border-bottom">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <h2 class="fw-bold mb-2">Not a dashboard. Not a reporting
