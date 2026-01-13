@@ -3,109 +3,116 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <div class="container hero__grid">
-
-    <div class="hero__card">
-      <div class="kicker"><span class="kicker__dot"></span>Software + design science for fashion DPP implementation</div>
-      <h1>M-DPP turns material evidence into interoperable Digital Product Passports.</h1>
-      <p class="lead">
-        We develop and validate an implementation pattern for Digital Product Passports in fashion: data models, identifiers,
-        verification logic, and workflows that survive real value-chain conditions.
-      </p>
-
-      <div class="hero__actions">
-        <a class="btn btn--primary" href="{{ '/work' | relative_url }}">See how it works</a>
-        <a class="btn" href="{{ '/outputs' | relative_url }}">Outputs and artifacts</a>
-      </div>
-    </div>
-
-    <div class="hero__aside">
-      <div class="panel">
-        <p class="panel__title">What the platform enables</p>
-        <p class="panel__meta">From lab-grade material identification to product-level DPP records, with governance and auditability.</p>
-        <div class="badges">
-          <span class="badge">Identifiers + linking</span>
-          <span class="badge">Evidence chains</span>
-          <span class="badge">Interoperable exports</span>
-          <span class="badge">Verification-ready</span>
+<section class="hero py-5">
+  <div class="container py-3">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <div class="section-kicker mb-2">Software for design-science implementation in fashion</div>
+        <h1 class="display-5 fw-bold mb-3">Digital Product Passports that survive reality.</h1>
+        <p class="lead mb-4">
+          M-DPP develops and validates a practical implementation pattern for fashion DPPs:
+          identifiers, evidence chains, interoperable data models, and verification-aware workflows.
+        </p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a class="btn btn-primary btn-lg" href="{{ '/work' | relative_url }}">How it works</a>
+          <a class="btn btn-outline-secondary btn-lg" href="{{ '/outputs' | relative_url }}">Outputs</a>
+        </div>
+        <div class="text-secondary small mt-3">
+          Built for research-grade traceability and deployment constraints across the value chain.
         </div>
       </div>
 
-      <div class="panel">
-        <p class="panel__title">Design science stance</p>
-        <p class="panel__meta">We learn through building: prototypes, pilots, failure modes, and measurable improvement across iterations.</p>
-      </div>
-    </div>
+      <div class="col-lg-6">
+        <div class="soft-card p-4">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <div>
+              <div class="fw-semibold">What it enables</div>
+              <div class="text-secondary">From material evidence to product-level passport records.</div>
+            </div>
+            <div class="icon-badge">DPP</div>
+          </div>
 
-  </div>
-</section>
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="p-3 border rounded-3 h-100">
+                <div class="fw-semibold">Identifiers + linking</div>
+                <div class="text-secondary small">Stable IDs across transformations.</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="p-3 border rounded-3 h-100">
+                <div class="fw-semibold">Evidence chains</div>
+                <div class="text-secondary small">Methods, scope, uncertainty, provenance.</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="p-3 border rounded-3 h-100">
+                <div class="fw-semibold">Interoperable exports</div>
+                <div class="text-secondary small">Designed for integration, not PDFs.</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="p-3 border rounded-3 h-100">
+                <div class="fw-semibold">Verification-aware</div>
+                <div class="text-secondary small">Claims are inspectable and auditable.</div>
+              </div>
+            </div>
+          </div>
 
-<section class="section">
-  <div class="container">
-    <div class="section__head">
-      <h2>Core capabilities</h2>
-      <p class="section__sub">The boring-hard engineering that makes DPPs non-fiction.</p>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <p class="card__title">Material-to-product traceability</p>
-        <p class="card__text">Link material evidence to components and SKUs via stable identifiers and transformation events.</p>
-        <div class="card__note">Focus: data integrity, not marketing gloss.</div>
-      </div>
-      <div class="card">
-        <p class="card__title">Passport-ready data model</p>
-        <p class="card__text">A pragmatic schema that maps to real processes: composition, processes, claims, evidence, and provenance.</p>
-        <div class="card__note">Designed for exchange across actors.</div>
-      </div>
-      <div class="card">
-        <p class="card__title">Verification and governance</p>
-        <p class="card__text">Make claims inspectable: who asserted what, on which evidence, under which method and constraints.</p>
-        <div class="card__note">Built for audits and enforcement realities.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section__head">
-      <h2>Implementation pathway</h2>
-      <p class="section__sub">A deployment logic you can explain to both a lab and a brand.</p>
-    </div>
-
-    <div class="split">
-      <div class="card">
-        <p class="card__title">1. Capture</p>
-        <p class="card__text">Generate evidence at the point of truth: measurements, test results, transformation records, and declarations.</p>
-      </div>
-      <div class="card">
-        <p class="card__title">2. Structure</p>
-        <p class="card__text">Normalize and link data to identifiers; encode methods, uncertainty, and scope to prevent misleading reuse.</p>
-      </div>
-      <div class="card">
-        <p class="card__title">3. Publish</p>
-        <p class="card__text">Expose DPP records through export formats and interfaces that downstream actors can actually integrate.</p>
-      </div>
-      <div class="card">
-        <p class="card__title">4. Evaluate</p>
-        <p class="card__text">Pilot, observe failure modes, measure operational cost, and iterate the pattern.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="py-5">
   <div class="container">
-    <div class="section__head">
-      <h2>Next</h2>
-      <p class="section__sub">Make it legible for partners and funders.</p>
+    <div class="row mb-4 align-items-end g-3">
+      <div class="col-lg-7">
+        <div class="section-kicker mb-2">Capabilities</div>
+        <h2 class="fw-bold mb-0">The boring-hard parts, implemented.</h2>
+      </div>
+      <div class="col-lg-5 text-secondary">
+        Clean architecture and measurable iteration: prototypes, pilots, failure modes, improvement.
+      </div>
     </div>
 
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="{{ '/contact' | relative_url }}">Contact</a>
-      <a class="btn" href="{{ '/about' | relative_url }}">Project context</a>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="icon-badge mb-3">1</div>
+          <div class="fw-semibold">Material-to-product traceability</div>
+          <div class="text-secondary mt-2">Link evidence to components and SKUs via transformation events.</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="icon-badge mb-3">2</div>
+          <div class="fw-semibold">Passport-ready data model</div>
+          <div class="text-secondary mt-2">Schema that maps to processes: composition, processes, claims, provenance.</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="icon-badge mb-3">3</div>
+          <div class="fw-semibold">Governance + verification</div>
+          <div class="text-secondary mt-2">Who asserted what, on which evidence, under which method.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-white border-top border-bottom">
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <div class="col-lg-8">
+        <h2 class="fw-bold mb-1">Working on a fashion DPP pilot?</h2>
+        <div class="text-secondary">We can share the implementation pathway and evaluation logic.</div>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <a class="btn btn-primary btn-lg" href="{{ '/contact' | relative_url }}">Contact</a>
+      </div>
     </div>
   </div>
 </section>

@@ -1,0 +1,23 @@
+<header class="site-nav border-bottom bg-white sticky-top">
+  <nav class="navbar navbar-expand-lg container py-2">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="{{ '/' | relative_url }}">
+      <span class="mark"></span>
+      <span>{{ site.title }}</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="{{ '/about' | relative_url }}">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/work' | relative_url }}">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/outputs' | relative_url }}">Outputs</a></li>
+        <li class="nav-item">
+          <a class="btn btn-primary ms-lg-2" href="{{ '/contact' | relative_url }}">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

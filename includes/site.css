@@ -1,0 +1,45 @@
+:root{
+  --ink:#0f172a;
+  --muted:#475569;
+  --bg:#f8fafc;
+  --primary:#2563eb;
+}
+
+body{ color:var(--ink); background:var(--bg); }
+.mark{
+  width:14px; height:14px; border-radius:4px;
+  background: linear-gradient(135deg, #22c55e, var(--primary));
+  display:inline-block;
+}
+
+.hero{
+  position: relative;
+  background: radial-gradient(1200px 420px at 15% 10%, rgba(37,99,235,0.15), transparent 60%),
+              radial-gradient(900px 420px at 85% 0%, rgba(34,197,94,0.12), transparent 60%),
+              #ffffff;
+}
+.hero .lead{ color: var(--muted); max-width: 65ch; }
+
+.soft-card{
+  background:#ffffff;
+  border:1px solid rgba(15,23,42,0.08);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(2,6,23,0.06);
+}
+
+.icon-badge{
+  width:42px; height:42px; border-radius: 12px;
+  background: rgba(37,99,235,0.10);
+  display:grid; place-items:center;
+  font-weight:700; color: var(--primary);
+}
+
+.section-kicker{
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.text-secondary{ color: var(--muted) !important; }
+.btn-primary{ background: var(--primary); border-color: var(--primary); }
