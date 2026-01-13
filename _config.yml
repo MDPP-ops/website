@@ -11,5 +11,5 @@ theme: minima
 header_pages:
   - about.md
   - work.md
-  - outputs.md
+  - output.md
   - contact.md
