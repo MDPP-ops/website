@@ -1,0 +1,17 @@
+:root { --max: 980px; --pad: 18px; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+
+.site-header { border-bottom: 1px solid #e6e6e6; }
+.site-header .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 14px var(--pad); }
+.brand { text-decoration: none; color: inherit; font-weight: 650; letter-spacing: 0.2px; }
+.nav a { text-decoration: none; color: inherit; margin-left: 12px; opacity: 0.85; }
+.nav a:hover { opacity: 1; }
+
+main.wrap { padding: 28px var(--pad) 48px; }
+h1 { line-height: 1.2; margin: 0 0 12px; }
+h2 { margin-top: 28px; }
+p, li { max-width: 75ch; }
+
+.site-footer { border-top: 1px solid #e6e6e6; padding: 18px 0; color: #555; }
