@@ -73,102 +73,57 @@ title: Home
   </div>
 </section>
 
-<!-- PROBLEM -->
-<section class="py-5 bg-light border-top">
+<<section class="py-5 bg-light border-top">
   <div class="container">
     <div class="row mb-4">
-      <div class="col-lg-7">
-        <h2 class="fw-bold">Why most DPP initiatives fail</h2>
-        <p class="text-secondary">
-          Digital Product Passports are often treated as reporting artefacts. In practice, they
-          require operational data infrastructures that can cope with fragmented value chains,
-          heterogeneous data quality, and competing institutional incentives.
-        </p>
-      </div>
-    </div>
-
-    <div class="row g-3">
-      <div class="col-md-6 col-lg-4">
-        <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">Unclear data provenance</div>
-          <p class="text-secondary mb-0">
-            Claims are detached from methods, scope, and responsibility.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">Incompatible data models</div>
-          <p class="text-secondary mb-0">
-            Systems cannot exchange information without manual reinterpretation.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">Governance blind spots</div>
-          <p class="text-secondary mb-0">
-            Responsibility, verification, and enforcement are left implicit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- APPROACH -->
-<section class="py-5">
-  <div class="container">
-    <div class="row mb-4">
-      <div class="col-lg-7">
-        <h2 class="fw-bold">Our approach</h2>
-        <p class="text-secondary">
-          M-DPP applies a design-science methodology: knowledge is produced through the construction,
-          testing, and evaluation of working artefacts in realistic contexts.
-        </p>
-      </div>
-    </div>
-
-    <div class="row g-3">
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">1. Capture</div>
-          <p class="text-secondary mb-0">
-            Generate evidence at the point of origin: measurements, tests, and declarations.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">2. Structure</div>
-          <p class="text-secondary mb-0">
-            Encode data with explicit identifiers, methods, and uncertainty.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">3. Publish</div>
-          <p class="text-secondary mb-0">
-            Expose DPP records through interoperable formats and interfaces.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">4. Evaluate</div>
-          <p class="text-secondary mb-0">
-            Observe failure modes, cost, and organisational impact.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- POSITIONING -->
-<section class="py-5 bg-light border-top border-bottom">
-  <div class="container">
-    <div class="row align-items-center g-4">
       <div class="col-lg-8">
-        <h2 class="fw-bold mb-2">Not a dashboard. Not a reporting
+        <h2 class="fw-bold">Why Digital Product Passports matter for small companies</h2>
+        <p class="text-secondary">
+          From July 2027, many products sold in the EU must have a Digital Product Passport (DPP)
+          under the Ecodesign for Sustainable Products Regulation (ESPR).
+          This applies not only to large brands, but also to small companies placing products on the market.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4">
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">DPPs are a legal requirement</div>
+          <p class="text-secondary mb-0">
+            To sell products in the EU, companies must be able to provide structured,
+            inspectable information about materials and claims.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">Good intentions are not enough</div>
+          <p class="text-secondary mb-0">
+            Having “the right materials” is not sufficient.
+            You must be able to show where information comes from and how reliable it is.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="bg-white border rounded-4 p-4 h-100">
+          <div class="fw-semibold">Designed for small companies</div>
+          <p class="text-secondary mb-0">
+            M-DPP helps small companies structure material information correctly,
+            without needing legal teams or complex IT systems.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col">
+        <a href="/about" class="btn btn-outline-secondary">
+          Read how M-DPP supports ESPR compliance
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
