@@ -1,7 +1,7 @@
 title: M-DPP
 description: Molecular-level Digital Product Passports — application in practice
-url: "https://mdpp-ops.github.io"
-baseurl: "m-dpp.nl"
+url: "https://m-dpp.nl"
+baseurl: ""
 
 markdown: kramdown
 
