@@ -4,32 +4,33 @@ title: Home
 permalink: /
 ---
 
-<!-- HERO -->
+<!-- HERO (TEXTILES EXPLICIT) -->
 <section class="hero py-5">
   <div class="container py-4">
     <div class="row align-items-center g-4">
 
       <div class="col-lg-6">
         <div class="section-kicker mb-2">
-          Software + design science for fashion DPP implementation
+          Molecular Digital Physical Product Passport for Textiles
         </div>
 
         <h1 class="display-5 fw-bold mb-3">
-          Digital Product Passports that work under real conditions.
+          Verifiable textile product information that survives the full lifecycle.
         </h1>
 
         <p class="lead mb-4">
-          M-DPP helps small fashion and textile companies prepare for Digital Product Passports (DPPs):
-          clear material information, traceable evidence, and DPP-ready structure—without complex IT.
+          M-DPP addresses a core challenge in the textile sector: building persistent, interoperable product
+          information that remains verifiable even after years of use—supporting Digital Product Passports (DPPs)
+          under the EU Ecodesign for Sustainable Products Regulation (ESPR).
         </p>
 
         <div class="d-flex gap-2 flex-wrap">
-          <a href="{{ '/work' | relative_url }}" class="btn btn-primary btn-lg">How it works</a>
-          <a href="{{ '/output' | relative_url }}" class="btn btn-outline-secondary btn-lg">Project outputs</a>
+          <a href="#why" class="btn btn-primary btn-lg">Why this matters</a>
+          <a href="#how" class="btn btn-outline-secondary btn-lg">How M-DPP works</a>
         </div>
 
         <div class="text-secondary small mt-3">
-          Built by HvA and HAN to support small companies with practical, evidence-based implementation.
+          Built for textiles: composition verification, recycled/blended materials, and long-term traceability beyond QR/RFID labels.
         </div>
       </div>
 
@@ -37,47 +38,48 @@ permalink: /
         <div class="soft-card p-4">
           <div class="d-flex justify-content-between align-items-start mb-3">
             <div>
-              <div class="fw-semibold">What the platform helps you do</div>
+              <div class="fw-semibold">What M-DPP enables (for textile SMEs)</div>
               <div class="text-secondary">
-                Turn material information into DPP-ready records that can be inspected and reused.
+                Reliable, tamper-resistant identification based on the textile’s own fibre-level characteristics,
+                connected to an open, interoperable passport infrastructure.
               </div>
             </div>
-            <div class="icon-badge">DPP</div>
+            <div class="icon-badge">TXT</div>
           </div>
 
           <div class="row g-3">
             <div class="col-12 col-md-6">
               <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Check your materials</div>
+                <div class="fw-semibold">Molecular fingerprinting</div>
                 <div class="text-secondary small">
-                  Assess whether supplier declarations and documents are adequate for DPP use.
+                  Verify fibre composition (incl. blends and recycled content) after years of use.
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-md-6">
               <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Make evidence explicit</div>
+                <div class="fw-semibold">Tier-4 provenance readiness</div>
                 <div class="text-secondary small">
-                  Link claims to methods, scope, and responsibility to reduce compliance risk.
+                  Support transparency requirements down to raw-material provenance.
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-md-6">
               <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Structure for exchange</div>
+                <div class="fw-semibold">Open reference database</div>
                 <div class="text-secondary small">
-                  Organise product and material data so it can flow to customers and future DPP systems.
+                  Public, open-source datasets to validate composition and sustainability claims.
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-md-6">
               <div class="p-3 border rounded-3 h-100">
-                <div class="fw-semibold">Stay audit-ready</div>
+                <div class="fw-semibold">Interoperable DPP infrastructure</div>
                 <div class="text-secondary small">
-                  Keep records inspectable: who asserted what, based on which evidence.
+                  Modular architecture using open standards, accessible APIs, and robust governance.
                 </div>
               </div>
             </div>
@@ -90,17 +92,17 @@ permalink: /
   </div>
 </section>
 
-<!-- OUTREACH: WHY THIS MATTERS -->
-<section class="py-5 bg-light border-top">
+<!-- WHY (ESPR + SME REALITY) -->
+<section id="why" class="py-5 bg-light border-top">
   <div class="container">
 
     <div class="row mb-4">
-      <div class="col-lg-8">
-        <h2 class="fw-bold">Selling products in the EU after 2027?</h2>
-        <p class="text-secondary">
-          From July 2027, many products must have a Digital Product Passport (DPP) to comply with EU sustainability
-          regulation (ESPR). This affects small companies too—especially if you sell under your own label or supply
-          larger brands.
+      <div class="col-lg-9">
+        <h2 class="fw-bold">Why this matters for textile companies</h2>
+        <p class="text-secondary mb-0">
+          As the EU prepares to mandate Digital Product Passports under ESPR, the predominantly SME-based textile industry
+          must meet strict transparency requirements, including raw-material provenance. Conventional identifiers
+          (QR codes, RFID, printed labels) can be lost, washed out, or damaged—creating a traceability gap exactly when verification is needed.
         </p>
       </div>
     </div>
@@ -108,86 +110,87 @@ permalink: /
     <div class="row g-3">
       <div class="col-md-6 col-lg-4">
         <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">This applies to small teams</div>
+          <div class="fw-semibold">Persistence beyond labels</div>
           <p class="text-secondary mb-0">
-            If you place products on the EU market, you will be expected to provide structured information about
-            materials and product claims.
+            M-DPP links identity to the textile material itself, enabling long-term verification even when tags fail.
           </p>
         </div>
       </div>
 
       <div class="col-md-6 col-lg-4">
         <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">Spreadsheets will not be enough</div>
+          <div class="fw-semibold">Claim verification</div>
           <p class="text-secondary mb-0">
-            Customers and authorities will require data that is traceable and reusable—not screenshots, PDFs, or email threads.
+            Composition, recycled content, and processing/ageing effects can be checked using established analytical methods.
           </p>
         </div>
       </div>
 
       <div class="col-md-6 col-lg-4">
         <div class="bg-white border rounded-4 p-4 h-100">
-          <div class="fw-semibold">Avoid preventable risk</div>
+          <div class="fw-semibold">Interoperability, not lock-in</div>
           <p class="text-secondary mb-0">
-            The main risk is not “bad intent”. It is unclear provenance, missing evidence, and overclaiming.
-            M-DPP helps keep scope and uncertainty explicit.
+            The infrastructure is designed around open standards and APIs for secure exchange across different systems.
           </p>
         </div>
-      </div>
-    </div>
-
-    <div class="row mt-4">
-      <div class="col">
-        <a href="{{ '/about' | relative_url }}" class="btn btn-outline-secondary">
-          How M-DPP supports small companies
-        </a>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- CAPABILITIES -->
-<section class="py-5">
+<!-- HOW IT WORKS -->
+<section id="how" class="py-5">
   <div class="container">
 
-    <div class="row mb-4 align-items-end g-3">
-      <div class="col-lg-7">
-        <div class="section-kicker mb-2">Capabilities</div>
-        <h2 class="fw-bold mb-0">Practical DPP implementation, not theory.</h2>
-      </div>
-      <div class="col-lg-5 text-secondary">
-        Designed to fit small organisations: clear steps, minimal tooling burden, evidence-first logic.
+    <div class="row mb-4">
+      <div class="col-lg-9">
+        <div class="section-kicker mb-2">How M-DPP works</div>
+        <h2 class="fw-bold">Bind a textile’s physical identity to its digital record.</h2>
+        <p class="text-secondary mb-0">
+          M-DPP combines (1) molecular material analysis for robust identification and (2) an open digital infrastructure
+          for DPP-aligned information exchange across the textile value chain.
+        </p>
       </div>
     </div>
 
     <div class="row g-3">
-      <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">1</div>
-          <div class="fw-semibold">Material confirmation</div>
-          <div class="text-secondary mt-2">
-            Check whether what you think is in the product is supported by supplier information and documentation.
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">1. Measure</div>
+          <div class="text-secondary">
+            Generate a molecular “fingerprint” using established methods such as FTIR, Raman spectroscopy,
+            chromatography, and model-assisted image analysis.
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">2</div>
-          <div class="fw-semibold">Evidence-linked claims</div>
-          <div class="text-secondary mt-2">
-            Make claims verifiable by linking them to evidence, methods, scope, and responsibility.
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">2. Verify</div>
+          <div class="text-secondary">
+            Validate fibre composition (natural fibres, recycled and blended materials), detect recycled content,
+            and assess processing or ageing effects over time.
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="icon-badge mb-3">3</div>
-          <div class="fw-semibold">DPP-ready structure</div>
-          <div class="text-secondary mt-2">
-            Organise product information so it can be exchanged, reused, and inspected in DPP ecosystems.
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">3. Publish</div>
+          <div class="text-secondary">
+            Feed datasets into a publicly accessible open-source reference database, supporting validation of claims
+            and alignment with EU textiles strategy and related frameworks.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="border rounded-4 p-4 h-100">
+          <div class="fw-semibold">4. Exchange</div>
+          <div class="text-secondary">
+            Use a modular, ESPR-aligned architecture based on open standards, accessible APIs, and data governance—
+            designed to integrate with future European data spaces and automate essential reporting tasks (e.g., EPR).
           </div>
         </div>
       </div>
@@ -196,64 +199,51 @@ permalink: /
   </div>
 </section>
 
-<!-- HOW IT WORKS (SHORT PATHWAY) -->
+<!-- VALIDATION + CO-DESIGN -->
 <section class="py-5 bg-white border-top border-bottom">
   <div class="container">
 
     <div class="row mb-4">
-      <div class="col-lg-8">
-        <div class="section-kicker mb-2">Implementation pathway</div>
-        <h2 class="fw-bold">A simple sequence that small teams can follow.</h2>
+      <div class="col-lg-9">
+        <div class="section-kicker mb-2">Validation in practice</div>
+        <h2 class="fw-bold">Designed with industry, tested in real settings.</h2>
         <p class="text-secondary mb-0">
-          M-DPP uses a design-science approach: build working artefacts, test them in realistic contexts,
-          observe failure modes, then improve.
+          M-DPP is validated with Dutch fashion and interior textile partners, including byBorre, and expanded with Knitwear Lab
+          and New Order of Fashion (NOoF). A citizen-science component studies how people interact with DPP information in everyday contexts,
+          including digital literacy, trust, and behavioural aspects.
         </p>
       </div>
     </div>
 
     <div class="row g-3">
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">1. Collect</div>
-          <div class="text-secondary">
-            Gather supplier declarations, certificates, and internal product specs.
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="fw-semibold">Co-design + Living Labs</div>
+          <div class="text-secondary mt-2">
+            Iterative co-design through Industry Living Labs and sector consultations to ensure the system fits producers,
+            recyclers, policymakers, and end-users.
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">2. Check</div>
-          <div class="text-secondary">
-            Identify gaps: missing provenance, unclear scope, inconsistent composition information.
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="fw-semibold">Multi-stakeholder consortium</div>
+          <div class="text-secondary mt-2">
+            Led by Amsterdam University of Applied Sciences (Fashion Research & Technology and Responsible IT),
+            with HAN University of Applied Sciences (Biobased Innovations) and partners including Candour.Digital and DCTV.
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">3. Structure</div>
-          <div class="text-secondary">
-            Link materials, products, and claims so the information becomes DPP-ready.
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="fw-semibold">Impact focus</div>
+          <div class="text-secondary mt-2">
+            Robust defence against greenwashing, stronger circular business models and next-generation recycling,
+            and an open foundation for DPP applications in textiles and textile-dependent sectors.
           </div>
         </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3">
-        <div class="border rounded-4 p-4 h-100">
-          <div class="fw-semibold">4. Prepare</div>
-          <div class="text-secondary">
-            Produce outputs that can be reused in customer systems and future passport platforms.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mt-4">
-      <div class="col">
-        <a href="{{ '/work' | relative_url }}" class="btn btn-primary">
-          See the full approach
-        </a>
       </div>
     </div>
 
@@ -265,9 +255,10 @@ permalink: /
   <div class="container">
     <div class="row align-items-center g-3">
       <div class="col-lg-8">
-        <h2 class="fw-bold mb-2">Are you a small company preparing for DPP requirements?</h2>
+        <h2 class="fw-bold mb-2">Are you a textile SME preparing for DPP requirements?</h2>
         <p class="text-secondary mb-0">
-          We can help you clarify what is required, check your material information, and structure your data for DPP readiness.
+          We can help you understand what evidence is needed, how material verification can work in practice,
+          and how to structure information for interoperable DPP systems.
         </p>
       </div>
       <div class="col-lg-4 text-lg-end">
