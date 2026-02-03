@@ -6,6 +6,6 @@ permalink: /contact/
 
 # Contact
 
-<p class="text-secondary mb-0">
+<p>
 Add the project contact point(s) and institutional affiliations here.
 </p>
