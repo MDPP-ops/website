@@ -1,5 +1,30 @@
-<footer class="site-footer">
-  <div class="wrap">
-    <small>© {{ site.time | date: '%Y' }} {{ site.title }} · Built with Jekyll on GitHub Pages</small>
+<footer class="site-footer bg-white border-top py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <img src="{{ '/assets/images/M-DPP_footer_consortium_line.jpg' | relative_url }}"
+           alt="M-DPP consortium partners"
+           class="footer-consortium-img">
+    </div>
+    <div class="text-center mb-3">
+      <p class="text-secondary small mb-2">
+        M-DPP is an applied research project co-funded by
+        <a href="https://www.nwo.nl/en/taskforce-for-applied-research-sia">NWO/SIA</a> for the
+        <a href="https://digital-holland.com/news/these-are-the-7-projects-selected-in-the-digital-product-passports-call">Top-Sector ICT Digital Product Passports</a> programme.
+      </p>
+      <p class="text-secondary small mb-0">
+        Consortium:
+        <a href="https://www.amsterdamuas.com/">Amsterdam University of Applied Sciences</a> ·
+        <a href="https://www.han.nl/en/">HAN University of Applied Sciences</a> ·
+        <a href="https://www.dutchcirculartextile.org/">Dutch Circular Textile Valley</a> ·
+        <a href="https://www.neworderoffashion.com/">New Order of Fashion</a> ·
+        <a href="https://newoptimist.nl/">New Optimist</a> ·
+        <a href="https://www.candour.digital/">Candour.Digital</a> ·
+        <a href="https://byborre.com/">BYBORRE</a> ·
+        <a href="https://knitwearlab.nl/">Knitwear Lab</a>
+      </p>
+    </div>
+    <div class="text-center">
+      <small class="text-secondary">© {{ site.time | date: '%Y' }} {{ site.title }}</small>
+    </div>
   </div>
 </footer>

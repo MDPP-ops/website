@@ -30,13 +30,17 @@ body{
   background: var(--bg);
 }
 
-/* Brand mark (small square gradient) */
-.mark{
-  width:14px;
-  height:14px;
-  border-radius: 4px;
-  background: linear-gradient(135deg, var(--accent), var(--primary));
-  display:inline-block;
+/* Header logo */
+.header-logo{
+  height: 40px;
+  width: auto;
+}
+
+/* Footer */
+.footer-consortium-img{
+  max-width: 100%;
+  width: 700px;
+  height: auto;
 }
 
 /* Top nav: keep it crisp */
