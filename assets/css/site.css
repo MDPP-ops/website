@@ -32,14 +32,14 @@ body{
 
 /* Header logo */
 .header-logo{
-  height: 40px;
-  width: auto;
+  width: 20%;
+  min-width: 100px;
+  height: auto;
 }
 
-/* Footer */
+/* Footer consortium strip */
 .footer-consortium-img{
-  max-width: 100%;
-  width: 700px;
+  width: 80%;
   height: auto;
 }
 
