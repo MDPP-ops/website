@@ -46,7 +46,7 @@ permalink: /
                 open, and interoperable DPP infrastructure grounded in material science.
               </div>
             </div>
-            <div class="icon-badge">TXT</div>
+            <div class="icon-badge">🔬</div>
           </div>
 
           <div class="row g-3">
