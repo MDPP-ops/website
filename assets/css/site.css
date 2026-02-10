@@ -35,6 +35,8 @@ body{
   width: 20%;
   min-width: 100px;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 /* Footer consortium strip */
@@ -43,10 +45,38 @@ body{
   height: auto;
 }
 
-/* Top nav: keep it crisp */
+/* Top nav: dark grey header */
 .site-nav{
-  background: rgba(255,255,255,0.92);
+  background: rgba(30,34,42,0.97);
   backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.site-nav .nav-link{
+  color: rgba(255,255,255,0.82);
+  font-weight: 500;
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus{
+  color: #ffffff;
+}
+.site-nav .navbar-toggler{
+  border-color: rgba(255,255,255,0.25);
+}
+.site-nav .navbar-toggler-icon{
+  filter: invert(1);
+}
+
+/* Nav CTA button (light on dark) */
+.btn-nav-cta{
+  background: #ffffff;
+  color: var(--ink);
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+.btn-nav-cta:hover{
+  background: var(--primary);
+  color: #ffffff;
 }
 
 /* HERO: lighten and reduce “paint spill” */
