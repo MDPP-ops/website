@@ -79,7 +79,12 @@ body{
   color: #ffffff;
 }
 
-/* HERO: lighten and reduce “paint spill” */
+/* Anchor offset for sticky header */
+section[id]{
+  scroll-margin-top: 80px;
+}
+
+/* HERO: lighten and reduce "paint spill" */
 .hero{
   background:
     radial-gradient(1000px 420px at 10% 5%, rgba(29,78,216,0.10), transparent 60%),
