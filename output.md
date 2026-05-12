@@ -60,15 +60,37 @@ permalink: /outputs/
 
     </div>
 
-    <div class="row mt-5">
-      <div class="col-lg-9">
-        <div class="border rounded-4 p-4 bg-white">
-          <p class="text-secondary mb-0">
-            The project started in 2025. Outputs will be added to this page as the research progresses.
-            Check back regularly or <a href="{{ '/contact' | relative_url }}">get in touch</a> to stay informed.
-          </p>
-        </div>
+    </div>
+
+  <!-- STAKEHOLDER ENGAGEMENT -->
+  <div class="row mt-5">
+    <div class="col-12">
+      <h2 class="h5 fw-semibold mb-3">Stakeholder engagement</h2>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="soft-card p-4 h-100 d-flex flex-column">
+        <div class="fw-semibold mb-2">Stakeholder Questionnaire — Delphi Method</div>
+        <p class="text-secondary mb-4">
+          A structured multi-round consultation engaging experts across the textile value chain
+          to establish shared, practice-grounded requirements for Digital Product Passports.
+          Includes study design, Round 1 questionnaire, and Round 1 analysis with Round 2 statements.
+        </p>
+        <a href="{{ '/outputs/delphi/' | relative_url }}" class="btn btn-primary mt-auto">
+          View documents
+        </a>
       </div>
     </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-lg-9">
+      <div class="border rounded-4 p-4 bg-white">
+        <p class="text-secondary mb-0">
+          The project started in 2025. Outputs will be added to this page as the research progresses.
+          Check back regularly or <a href="{{ '/contact' | relative_url }}">get in touch</a> to stay informed.
+        </p>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
