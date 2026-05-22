@@ -10,16 +10,17 @@
   <!-- Nav strip -->
   <nav class="navbar navbar-expand-lg container-fluid px-4 py-2">
 
-    <!-- Mobile: compact logo -->
-    <a class="navbar-brand d-flex d-lg-none align-items-center" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/images/M-DPP_header_logo_horizontal_1000px.jpg' | relative_url }}"
-           alt="{{ site.title }}"
-           class="header-logo">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- Mobile: logo + hamburger grouped together on the left -->
+    <div class="d-flex d-lg-none align-items-center gap-2">
+      <a class="navbar-brand p-0 m-0" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/M-DPP_logo_horizontal_3000px.png' | relative_url }}"
+             alt="{{ site.title }}"
+             class="header-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
 
     <div id="nav" class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">

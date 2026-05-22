@@ -58,11 +58,10 @@ body{
   height: auto;
 }
 
-/* Top nav: dark grey header */
+/* Top nav */
 .site-nav{
-  background: rgba(30,34,42,0.97);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: #607995;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
 }
 .site-nav .nav-link{
   color: rgba(255,255,255,0.82);
@@ -81,16 +80,16 @@ body{
 
 /* Nav secondary buttons — About / Work / Outputs */
 .btn-nav-secondary{
-  background: rgba(255,255,255,0.08);
-  color: rgba(255,255,255,0.88);
+  background: rgba(255,255,255,0.14);
+  color: #ffffff;
   font-weight: 600;
-  border: 1px solid rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.25);
   border-radius: 8px;
 }
 .btn-nav-secondary:hover{
-  background: rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.25);
   color: #ffffff;
-  border-color: rgba(255,255,255,0.30);
+  border-color: rgba(255,255,255,0.40);
 }
 
 /* Nav CTA button — Contact (light on dark) */
