@@ -210,7 +210,7 @@ a:hover{
 /* Mobile header: gradient background, logo fills full strip height */
 @media (max-width: 991.98px){
   .site-nav{
-    background: url('/assets/images/mobile_header_gradient.jpg') left center / cover no-repeat;
+    background: url('/assets/images/mobile_header_gradient.jpg') left top / 100% 100% no-repeat;
   }
   .site-nav .navbar{
     padding-top: 0 !important;
