@@ -43,11 +43,15 @@ body{
 .header-banner-link{
   display: block;
   line-height: 0;
+  overflow: visible;
 }
 .header-banner{
-  width: 100%;
-  height: auto;
   display: block;
+  width: 100%;
+  /* Explicit height from aspect ratio 1681:200 — prevents any browser or Bootstrap override */
+  height: calc(100vw * 200 / 1681);
+  max-height: none;
+  object-fit: fill;
 }
 
 /* Footer consortium strip */
@@ -60,6 +64,7 @@ body{
 .site-nav{
   background: #607995;
   border-bottom: 1px solid rgba(255,255,255,0.12);
+  overflow: visible;
 }
 .site-nav .nav-link{
   color: rgba(255,255,255,0.82);
