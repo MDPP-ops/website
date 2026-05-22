@@ -13,9 +13,13 @@ permalink: /outputs/delphi/
           <a href="{{ '/outputs/' | relative_url }}" class="text-decoration-none text-secondary">Outputs</a>
           &rsaquo; Stakeholder Engagement
         </div>
-        <h1 class="display-5 fw-bold mb-3">
+        <h1 class="display-5 fw-bold mb-2">
           Stakeholder Questionnaire — Delphi Method
         </h1>
+        <div class="mb-3">
+          <span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-2">WP1 · A1</span>
+          <span class="text-secondary small">Stakeholder Engagement &amp; Policy Alignment: Conducting stakeholder workshops to establish stakeholder perception while prioritizing process simplification</span>
+        </div>
         <p class="lead mb-0">
           A structured, multi-round stakeholder consultation to establish shared, practice-grounded
           requirements for Digital Product Passports across the textile value chain.
