@@ -30,13 +30,26 @@ body{
   background: var(--bg);
 }
 
-/* Header logo */
+/* Header logo (mobile only) */
 .header-logo{
   width: 20%;
   min-width: 100px;
   height: auto;
   padding: 0;
   margin: 0;
+}
+
+/* Full-width banner (desktop) */
+.header-banner-link{
+  display: block;
+  line-height: 0;
+}
+.header-banner{
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  object-position: left center;
+  display: block;
 }
 
 /* Footer consortium strip */
@@ -66,7 +79,21 @@ body{
   filter: invert(1);
 }
 
-/* Nav CTA button (light on dark) */
+/* Nav secondary buttons — About / Work / Outputs */
+.btn-nav-secondary{
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.88);
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 8px;
+}
+.btn-nav-secondary:hover{
+  background: rgba(255,255,255,0.16);
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.30);
+}
+
+/* Nav CTA button — Contact (light on dark) */
 .btn-nav-cta{
   background: #ffffff;
   color: var(--ink);
