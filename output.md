@@ -73,10 +73,9 @@ permalink: /outputs/
       <div class="col-md-6 col-lg-4">
         <div class="soft-card p-4 h-100 d-flex flex-column border-top border-primary border-3">
           <div class="fw-semibold mb-1">Stakeholder Questionnaire — Delphi Method</div>
-          <div class="text-secondary small mb-1" style="font-style: italic;">Key activity &mdash; Stakeholder engagement</div>
           <div class="text-secondary small mb-3">
             <span class="badge bg-primary bg-opacity-10 text-primary fw-normal">WP1 · A1</span>
-            Stakeholder Engagement &amp; Policy Alignment
+            Stakeholder Engagement &amp; Policy Alignment (key activity)
           </div>
           <p class="text-secondary mb-4">
             A structured multi-round consultation engaging experts across the textile value chain

@@ -18,7 +18,7 @@ permalink: /outputs/delphi/
         </h1>
         <div class="mb-3">
           <span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-2">WP1 · A1</span>
-          <span class="text-secondary small">Stakeholder Engagement &amp; Policy Alignment: Conducting stakeholder workshops to establish stakeholder perception while prioritizing process simplification</span>
+          <span class="text-secondary small">Stakeholder Engagement &amp; Policy Alignment: Conducting stakeholder workshops to establish stakeholder perception while prioritizing process simplification (key activity)</span>
         </div>
         <p class="lead mb-0">
           A structured, multi-round stakeholder consultation to establish shared, practice-grounded
