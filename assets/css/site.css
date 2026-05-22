@@ -206,3 +206,27 @@ a:hover{
   .display-5{ font-size: 2.1rem; }
   .hero{ padding-top: 2rem; padding-bottom: 2rem; }
 }
+
+/* Mobile header: gradient background, logo fills full strip height */
+@media (max-width: 991.98px){
+  .site-nav{
+    background: url('/assets/images/mobile_header_gradient.jpg') left center / cover no-repeat;
+  }
+  .site-nav .navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 64px;
+  }
+  .site-nav .navbar-brand{
+    padding: 0;
+    margin: 0;
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo{
+    height: 64px;
+    width: auto;
+    min-width: unset;
+  }
+}
