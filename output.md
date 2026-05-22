@@ -92,6 +92,23 @@ permalink: /outputs/
           </a>
         </div>
       </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100 d-flex flex-column border-top border-primary border-3">
+          <div class="fw-semibold mb-1">Industry Living Labs</div>
+          <div class="text-secondary small mb-3">
+            <span class="badge bg-primary bg-opacity-10 text-primary fw-normal">WP1 · A2</span>
+            Industry Living Labs: co-developing streamlined DPP processes (key activity)
+          </div>
+          <p class="text-secondary mb-4">
+            A series of three workshops with industry partners, designers, researchers, and
+            policymakers to co-design the M-DPP system around real needs. Includes presentations,
+            survey results, and Miro board outputs from all three sessions.
+          </p>
+          <a href="{{ '/outputs/living-labs/' | relative_url }}" class="btn btn-primary mt-auto">
+            View workshops
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- WP4 -->
